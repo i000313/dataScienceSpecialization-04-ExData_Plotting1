@@ -3,7 +3,7 @@
 source("load-dataset.R")
 
 # Open a png graphic device
-png(filename = "plot1.png", width=504, height=504, units = "px")
+png(filename = "plot1.png", width=480, height=480, units = "px")
 
 # Create plot1
 hist(hpc.df$Global_active_power
